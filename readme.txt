@@ -5,13 +5,16 @@ favor of GTK-3.
 Why? Because I like my GTK-2 theme better, and I can't bother to find a GTK-3
 theme or port it there.
 
+Edit: this repo does not exclusively store LXDE programs anymore, maybe it's
+time to rename the repo.
 
 Inside are x64 packages of the following:
-	PCManFM     1.4.0-1
-	LXPanel     0.11.1-2
-	LXTask      0.1.12-1
-	libfm-gtk2  1.4.0-1
-	
+	PCManFM        1.4.0-1
+	LXPanel        0.11.1-2
+	LXTask         0.1.12-1
+	libfm-gtk2     1.4.0-1
+	lxappeareance  0.6.4.1
+	bless*         0.6.3.2    (non-LXDE)  
 
 Install everything via `sudo pacman -U *`, then add each package to exclusion list,
 `IgnorePkg = libfm-gtk2 lxpanel lxtask pcmanfm`
